@@ -3,8 +3,6 @@ import datetime
 import getpass
 import os
 
-user = 'username'
-pw = 'password'
 date = datetime.date.today()
 ip_addr = ("192.168.108.129")
 
