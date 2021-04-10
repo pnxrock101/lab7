@@ -1,6 +1,7 @@
 import os
 import netmiko
 import datetime
+import getpass
 
 user = 'username'
 pw = 'password'
@@ -13,10 +14,9 @@ netDevice = {
     }
 
 
-def ciscoRunConf:
+def ciscoRunConf():
     user = input('Please enter your username: ')
     pw = getpass('Please enter your password: ')
     net_connect = ConnectHandler(**netDevice)
     output = net_connect.send_command("show run")
-    print(output, file=open("%s.txt" % date, "a+")
-    
+    print(output, file=open("%s.txt" % date, "a+"))
