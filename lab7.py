@@ -13,8 +13,6 @@ netDevice = {
     'device_type': 'cisco_ios',
     'username': user,
     'password': pw,
-    'use_keys': True,
-    'key_file': '/home/sdnstudent/lab7/lab7/rsa_key1',
     'port': 22,
     }
 
